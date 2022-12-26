@@ -1,0 +1,158 @@
+[
+  {
+    "label": "Calais (Calais Enrollment Center)",
+    "state": "ME",
+    "country": "USA",
+    "locationId": 5500
+  },
+  {
+    "label": "DETROIT (Detroit FAST & NEXUS Event)",
+    "state": "MI",
+    "country": "USA",
+    "locationId": 16502
+  },
+  {
+    "label": "Detroit (Detroit Enrollment Center)",
+    "state": "MI",
+    "country": "USA",
+    "locationId": 16511
+  },
+  {
+    "label": "Port Huron (Port Huron Enrollment Center)",
+    "state": "MI",
+    "country": "USA",
+    "locationId": 5024
+  },
+  {
+    "label": "Sault Ste. Marie (Sault Ste Marie EC)",
+    "state": "MI",
+    "country": "USA",
+    "locationId": 5080
+  },
+  {
+    "label": "International Falls (International Falls EC)",
+    "state": "MN",
+    "country": "USA",
+    "locationId": 5160
+  },
+  {
+    "label": "Warroad (Warroad Enrollment Center )",
+    "state": "MN",
+    "country": "USA",
+    "locationId": 5060
+  },
+  {
+    "label": "Sweetgrass (Sweetgrass NEXUS and FAST)",
+    "state": "MT",
+    "country": "USA",
+    "locationId": 5120
+  },
+  {
+    "label": "Champlain (Champlain Enrollment Center)",
+    "state": "NY",
+    "country": "USA",
+    "locationId": 5021
+  },
+  {
+    "label": "Niagara Falls (Niagara Falls EC)",
+    "state": "NY",
+    "country": "USA",
+    "locationId": 5161
+  },
+  {
+    "label": "Ogdensburg (Ogdensburg Enrollment Center)",
+    "state": "NY",
+    "country": "USA",
+    "locationId": 16546
+  },
+  {
+    "label": "Pembina (Pembina Enrollment Center)",
+    "state": "ND",
+    "country": "USA",
+    "locationId": 5100
+  },
+  {
+    "label": "Derby Line (Derby Line Enrollment Center)",
+    "state": "VT",
+    "country": "USA",
+    "locationId": 5223
+  },
+  {
+    "label": "BLAINE (Blaine NEXUS and FAST Enrollment Center )",
+    "state": "WA ",
+    "country": "USA",
+    "locationId": 5020
+  },
+  {
+    "label": "Calgary (Calgary Enrollment Center)",
+    "state": "AB",
+    "country": "CAN",
+    "locationId": 5030
+  },
+  {
+    "label": "Edmonton (Edmonton Enrollment Center)",
+    "state": "AB",
+    "country": "CAN",
+    "locationId": 5032
+  },
+  {
+    "label": "Richmond (Vancouver Enrollment Center)",
+    "state": "BC",
+    "country": "CAN",
+    "locationId": 5026
+  },
+  {
+    "label": "VANCOUVER (Vancouver Urban Enrollment Center)",
+    "state": "BC",
+    "country": "CAN",
+    "locationId": 5041
+  },
+  {
+    "label": "Winnipeg (Winnipeg Enrollment Center)",
+    "state": "MB",
+    "country": "CAN",
+    "locationId": 5029
+  },
+  {
+    "label": "Belleville (Houlton Enrollment Center)",
+    "state": "NB",
+    "country": "CAN",
+    "locationId": 5101
+  },
+  {
+    "label": "Goffs (Halifax Enrollment Center)",
+    "state": "NS",
+    "country": "CAN",
+    "locationId": 5031
+  },
+  {
+    "label": "Fort Erie (Buffalo-Ft. Erie EC)",
+    "state": "ON",
+    "country": "CAN",
+    "locationId": 5022
+  },
+  {
+    "label": "Lansdowne (Lansdowne, ON )",
+    "state": "ON",
+    "country": "CAN",
+    "locationId": 5520
+  },
+  {
+    "label": "Mississauga (Toronto Enrollment Center)",
+    "state": "ON",
+    "country": "CAN",
+    "locationId": 5027
+  },
+  {
+    "label": "Ottawa (Ottawa Enrollment Center)",
+    "state": "ON",
+    "country": "CAN",
+    "locationId": 5025
+  },
+  {
+    "label": "Montreal (Montreal Enrollment Center)",
+    "state": "QC",
+    "country": "CAN",
+    "locationId": 5028
+  }
+]
