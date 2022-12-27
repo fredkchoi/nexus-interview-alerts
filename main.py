@@ -1,5 +1,6 @@
 import time
 import json
+import datetime
 
 from poll import poll_ttp_schedule 
 
@@ -9,7 +10,6 @@ FREQUENCY = 600
 # From locationId.json, add the names of the locations that you want to check
 LOCATION_NAMES = [
     "Niagara Falls (Niagara Falls EC)",
-    "Detroit (Detroit Enrollment Center)",
     "Fort Erie (Buffalo-Ft. Erie EC)"
 ]
 
@@ -19,14 +19,16 @@ LOCATION_NAMES = [
 # TODO: Mailgun API integration to send emails directly to email inbox
 
 def main():
+    location_name_dict = {}
+        
+    with open('locations.json') as locations_json:
+        locations_content = locations_json.read()
+
+    locations = json.loads(locations_content)
+    
+    print("Current Time: " + str(datetime.datetime.now()))
+    
     while True:
-        location_name_dict = {}
-        
-        with open('locations.json') as locations_json:
-            locations_content = locations_json.read()
-        
-        locations = json.loads(locations_content)
-        
         for location in locations:
             location_name_dict[location["label"]] = location["locationId"]
         
@@ -35,6 +37,7 @@ def main():
             result = poll_ttp_schedule(location_name_dict[location_name])
             print(result)
         
+        print("")
         time.sleep(FREQUENCY)
 
 if __name__ == "__main__":
